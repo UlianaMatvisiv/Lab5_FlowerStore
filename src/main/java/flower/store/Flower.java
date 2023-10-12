@@ -6,8 +6,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
-
 @Setter @Getter @AllArgsConstructor @ToString @NoArgsConstructor
 public class Flower extends Item {
     @Getter
@@ -20,7 +18,7 @@ public class Flower extends Item {
 
     public Flower(Flower flower) {
         this.flowerType = flower.flowerType;
-        this.sepalLength= flower.sepalLength;
+        this.sepalLength = flower.sepalLength;
         this.price = flower.price;
         this.color = flower.color;
     }
@@ -28,4 +26,3 @@ public class Flower extends Item {
         return color.toString();
     }
 }
-
