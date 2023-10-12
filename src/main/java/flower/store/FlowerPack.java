@@ -22,7 +22,7 @@ public class FlowerPack {
         }
     }
 
-    public double getPrice(){
+    public double getPrice() {
         return flower.getPrice() * quantity;
     }
 
