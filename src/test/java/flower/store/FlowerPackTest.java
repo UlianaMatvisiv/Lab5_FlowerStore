@@ -25,9 +25,9 @@ public class FlowerPackTest {
 
     @Test
     public void testQuantity() {
-        int NewQuantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
-        flowerPack.setQuantity(NewQuantity);
-        Assertions.assertEquals(NewQuantity, flowerPack.getQuantity());
+        int quantity = RANDOM_GENERATOR.nextInt(MAX_QUANTITY);
+        flowerPack.setQuantity(quantity);
+        Assertions.assertEquals(quantity, flowerPack.getQuantity());
     }
 
     @Test
